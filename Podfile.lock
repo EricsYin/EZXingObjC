@@ -1,0 +1,14 @@
+PODS:
+  - ZXingObjC (3.2.2):
+    - ZXingObjC/All (= 3.2.2)
+  - ZXingObjC/All (3.2.2)
+
+DEPENDENCIES:
+  - ZXingObjC
+
+SPEC CHECKSUMS:
+  ZXingObjC: 2c95a0dc52daac69b23ec78fad8fa2fec05f8981
+
+PODFILE CHECKSUM: 285f2f3c6755355df2c53d629f7a4928ab6b9df9
+
+COCOAPODS: 1.4.0

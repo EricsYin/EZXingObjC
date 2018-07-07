@@ -13,6 +13,7 @@
 		1E4C3DED20F10CBB00C3A582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DEC20F10CBB00C3A582 /* Assets.xcassets */; };
 		1E4C3DF020F10CBB00C3A582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DEE20F10CBB00C3A582 /* LaunchScreen.storyboard */; };
 		1E4C3DF320F10CBB00C3A582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C3DF220F10CBB00C3A582 /* main.m */; };
+		472C39580665043BCC28BF36 /* libPods-EZXingObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3E8881FEF4886C2C200AA5 /* libPods-EZXingObjC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		1E4C3DEF20F10CBB00C3A582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E4C3DF120F10CBB00C3A582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E4C3DF220F10CBB00C3A582 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A7E6E67B43349F4D51C1A53 /* Pods-EZXingObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZXingObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZXingObjC/Pods-EZXingObjC.release.xcconfig"; sourceTree = "<group>"; };
+		548C5ABA069BFC33BAADED85 /* Pods-EZXingObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZXingObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZXingObjC/Pods-EZXingObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		EA3E8881FEF4886C2C200AA5 /* libPods-EZXingObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EZXingObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472C39580665043BCC28BF36 /* libPods-EZXingObjC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				1E4C3DE220F10CBA00C3A582 /* EZXingObjC */,
 				1E4C3DE120F10CBA00C3A582 /* Products */,
+				3F56096A6FA0EA09CD27475D /* Pods */,
+				89935A9DC9C888DFA73FA27B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +78,23 @@
 			path = EZXingObjC;
 			sourceTree = "<group>";
 		};
+		3F56096A6FA0EA09CD27475D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				548C5ABA069BFC33BAADED85 /* Pods-EZXingObjC.debug.xcconfig */,
+				3A7E6E67B43349F4D51C1A53 /* Pods-EZXingObjC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		89935A9DC9C888DFA73FA27B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA3E8881FEF4886C2C200AA5 /* libPods-EZXingObjC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E4C3DF620F10CBB00C3A582 /* Build configuration list for PBXNativeTarget "EZXingObjC" */;
 			buildPhases = (
+				779346F5EF871717F03D0607 /* [CP] Check Pods Manifest.lock */,
 				1E4C3DDC20F10CBA00C3A582 /* Sources */,
 				1E4C3DDD20F10CBA00C3A582 /* Frameworks */,
 				1E4C3DDE20F10CBA00C3A582 /* Resources */,
+				9AE6E5AF704F0436C75E06B3 /* [CP] Embed Pods Frameworks */,
+				BA85333C22AAE819D74974D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		779346F5EF871717F03D0607 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EZXingObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AE6E5AF704F0436C75E06B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZXingObjC/Pods-EZXingObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA85333C22AAE819D74974D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZXingObjC/Pods-EZXingObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E4C3DDC20F10CBA00C3A582 /* Sources */ = {
@@ -281,15 +359,13 @@
 		};
 		1E4C3DF720F10CBB00C3A582 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548C5ABA069BFC33BAADED85 /* Pods-EZXingObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RUMY2P44YY;
 				INFOPLIST_FILE = EZXingObjC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EnyLine.EZXingObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,15 +374,13 @@
 		};
 		1E4C3DF820F10CBB00C3A582 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A7E6E67B43349F4D51C1A53 /* Pods-EZXingObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RUMY2P44YY;
 				INFOPLIST_FILE = EZXingObjC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.EnyLine.EZXingObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

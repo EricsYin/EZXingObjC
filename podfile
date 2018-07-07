@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+
+target "EZXingObjC" do
+
+#use_frameworks!
+
+inhibit_all_warnings!
+
+pod 'ZXingObjC'
+
+end
