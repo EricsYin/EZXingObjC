@@ -15,6 +15,8 @@
 
 @class ZXDecodeHints;
 
+@protocol EZXCaptureDelegate, ZXReader;
+
 @interface EZXCapture : NSObject<AVCaptureVideoDataOutputSampleBufferDelegate,CAAction>
 
 @end
