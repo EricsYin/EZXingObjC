@@ -13,6 +13,8 @@
 		1E4C3DED20F10CBB00C3A582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DEC20F10CBB00C3A582 /* Assets.xcassets */; };
 		1E4C3DF020F10CBB00C3A582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DEE20F10CBB00C3A582 /* LaunchScreen.storyboard */; };
 		1E4C3DF320F10CBB00C3A582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C3DF220F10CBB00C3A582 /* main.m */; };
+		1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF620F375EF00041CC7 /* EZXCapture.m */; };
+		1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */; };
 		472C39580665043BCC28BF36 /* libPods-EZXingObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3E8881FEF4886C2C200AA5 /* libPods-EZXingObjC.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,11 @@
 		1E4C3DEF20F10CBB00C3A582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E4C3DF120F10CBB00C3A582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E4C3DF220F10CBB00C3A582 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCaptureDelegate.h; sourceTree = "<group>"; };
+		1EC3FAF520F375EF00041CC7 /* EZXCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCapture.h; sourceTree = "<group>"; };
+		1EC3FAF620F375EF00041CC7 /* EZXCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXCapture.m; sourceTree = "<group>"; };
+		1EC3FAF820F3763000041CC7 /* EZXingWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingWrapper.h; sourceTree = "<group>"; };
+		1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingWrapper.m; sourceTree = "<group>"; };
 		3A7E6E67B43349F4D51C1A53 /* Pods-EZXingObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZXingObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZXingObjC/Pods-EZXingObjC.release.xcconfig"; sourceTree = "<group>"; };
 		548C5ABA069BFC33BAADED85 /* Pods-EZXingObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZXingObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZXingObjC/Pods-EZXingObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		EA3E8881FEF4886C2C200AA5 /* libPods-EZXingObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EZXingObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +81,11 @@
 				1E4C3DEE20F10CBB00C3A582 /* LaunchScreen.storyboard */,
 				1E4C3DF120F10CBB00C3A582 /* Info.plist */,
 				1E4C3DF220F10CBB00C3A582 /* main.m */,
+				1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */,
+				1EC3FAF520F375EF00041CC7 /* EZXCapture.h */,
+				1EC3FAF620F375EF00041CC7 /* EZXCapture.m */,
+				1EC3FAF820F3763000041CC7 /* EZXingWrapper.h */,
+				1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */,
 			);
 			path = EZXingObjC;
 			sourceTree = "<group>";
@@ -221,6 +233,8 @@
 			files = (
 				1E4C3DE820F10CBA00C3A582 /* ViewController.m in Sources */,
 				1E4C3DF320F10CBB00C3A582 /* main.m in Sources */,
+				1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */,
+				1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */,
 				1E4C3DE520F10CBA00C3A582 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,7 +379,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RUMY2P44YY;
 				INFOPLIST_FILE = EZXingObjC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.EnyLine.EZXingObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,7 +397,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RUMY2P44YY;
 				INFOPLIST_FILE = EZXingObjC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.EnyLine.EZXingObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
