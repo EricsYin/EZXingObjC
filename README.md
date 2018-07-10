@@ -6,11 +6,13 @@
 
 ### 二.核心类描述
 
-- ZXCapture
+- EZXCapture
 
 ```objective-c
-ZXCapture
+EZXCapture  
 ```
 
 
+
+- EZXingWrapper
 
