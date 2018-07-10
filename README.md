@@ -15,4 +15,5 @@ EZXCapture
 
 
 - EZXingWrapper
+- EZXCaptureDelegate
 
