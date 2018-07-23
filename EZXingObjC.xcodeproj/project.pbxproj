@@ -15,6 +15,8 @@
 		1E4C3DF320F10CBB00C3A582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C3DF220F10CBB00C3A582 /* main.m */; };
 		1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF620F375EF00041CC7 /* EZXCapture.m */; };
 		1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */; };
+		1EFACB21210600E30043836A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFACB20210600E20043836A /* CoreGraphics.framework */; };
+		1EFACB23210600FE0043836A /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFACB22210600FE0043836A /* CoreImage.framework */; };
 		472C39580665043BCC28BF36 /* libPods-EZXingObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3E8881FEF4886C2C200AA5 /* libPods-EZXingObjC.a */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +36,8 @@
 		1EC3FAF620F375EF00041CC7 /* EZXCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXCapture.m; sourceTree = "<group>"; };
 		1EC3FAF820F3763000041CC7 /* EZXingWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingWrapper.h; sourceTree = "<group>"; };
 		1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingWrapper.m; sourceTree = "<group>"; };
+		1EFACB20210600E20043836A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1EFACB22210600FE0043836A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		3A7E6E67B43349F4D51C1A53 /* Pods-EZXingObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZXingObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZXingObjC/Pods-EZXingObjC.release.xcconfig"; sourceTree = "<group>"; };
 		548C5ABA069BFC33BAADED85 /* Pods-EZXingObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZXingObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZXingObjC/Pods-EZXingObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		EA3E8881FEF4886C2C200AA5 /* libPods-EZXingObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EZXingObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EFACB23210600FE0043836A /* CoreImage.framework in Frameworks */,
+				1EFACB21210600E30043836A /* CoreGraphics.framework in Frameworks */,
 				472C39580665043BCC28BF36 /* libPods-EZXingObjC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +108,8 @@
 		89935A9DC9C888DFA73FA27B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1EFACB22210600FE0043836A /* CoreImage.framework */,
+				1EFACB20210600E20043836A /* CoreGraphics.framework */,
 				EA3E8881FEF4886C2C200AA5 /* libPods-EZXingObjC.a */,
 			);
 			name = Frameworks;

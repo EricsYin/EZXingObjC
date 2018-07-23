@@ -17,6 +17,10 @@
 /////由系统CIDetector解析返回的结果
 //- (void)captureSystemResult:(LBXZXCapture *)capture result:(NSString *)result scanImage:(UIImage*)img;
 
+#pragma 实时返回capture output图片
+- (void)zxingLuminanceSourceImage:(UIImage*)image;
+
+
 @optional
 - (void)ECaptureSize:(EZXCapture *)capture
                  width:(NSNumber *)width
