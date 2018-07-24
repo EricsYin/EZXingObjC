@@ -32,8 +32,8 @@
 @property (nonatomic, strong) AVCaptureVideoDataOutput *output;
 @property (nonatomic, assign) BOOL running;
 @property (nonatomic, strong) AVCaptureSession *session;
-@end
 
+@end
 
 @implementation EZXCapture
 
@@ -389,8 +389,6 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
         
         self.lastScannedImage = rotatedImage;
         
-        
-        
         UIImage * tempImage = [UIImage imageWithCGImage: _lastScannedImage];
         if (tempImage) {
             dispatch_async(dispatch_get_main_queue(), ^{
@@ -485,8 +483,6 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
 //
 //    return result;
 //}
-
-
 
 
 // 重复执行的定时器

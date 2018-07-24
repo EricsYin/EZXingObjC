@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 @class EZXCapture;
-@class ZXResult;
+@class ZXResult;  
 
 @protocol EZXCaptureDelegate <NSObject>
 ///由zxing解析返回的结果

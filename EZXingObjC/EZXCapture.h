@@ -53,6 +53,7 @@
 - (void)changeTorch;
 
 - (CALayer *)binary;
+
 - (void)setBinary:(BOOL)on_off;
 
 - (CALayer *)luminance;
@@ -63,5 +64,5 @@
 - (void)start;
 - (void)stop;
 
-- (void)restartWithTimeInterger:(NSString *)time;
+
 @end
