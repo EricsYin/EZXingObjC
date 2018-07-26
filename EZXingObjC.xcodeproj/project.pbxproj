@@ -13,6 +13,7 @@
 		1E4C3DED20F10CBB00C3A582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DEC20F10CBB00C3A582 /* Assets.xcassets */; };
 		1E4C3DF020F10CBB00C3A582 /* '.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DEE20F10CBB00C3A582 /* '.storyboard */; };
 		1E4C3DF320F10CBB00C3A582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C3DF220F10CBB00C3A582 /* main.m */; };
+		1E5EFDB4210A298F00995301 /* EZXingScanBasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB3210A298F00995301 /* EZXingScanBasicView.m */; };
 		1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF620F375EF00041CC7 /* EZXCapture.m */; };
 		1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */; };
 		1EFACB21210600E30043836A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFACB20210600E20043836A /* CoreGraphics.framework */; };
@@ -31,6 +32,8 @@
 		1E4C3DEF20F10CBB00C3A582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/'.storyboard"; sourceTree = "<group>"; };
 		1E4C3DF120F10CBB00C3A582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E4C3DF220F10CBB00C3A582 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E5EFDB2210A298F00995301 /* EZXingScanBasicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingScanBasicView.h; sourceTree = "<group>"; };
+		1E5EFDB3210A298F00995301 /* EZXingScanBasicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingScanBasicView.m; sourceTree = "<group>"; };
 		1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCaptureDelegate.h; sourceTree = "<group>"; };
 		1EC3FAF520F375EF00041CC7 /* EZXCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCapture.h; sourceTree = "<group>"; };
 		1EC3FAF620F375EF00041CC7 /* EZXCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXCapture.m; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 				1E4C3DEE20F10CBB00C3A582 /* '.storyboard */,
 				1E4C3DF120F10CBB00C3A582 /* Info.plist */,
 				1E4C3DF220F10CBB00C3A582 /* main.m */,
+				1E5EFDB2210A298F00995301 /* EZXingScanBasicView.h */,
+				1E5EFDB3210A298F00995301 /* EZXingScanBasicView.m */,
 				1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */,
 				1EC3FAF520F375EF00041CC7 /* EZXCapture.h */,
 				1EC3FAF620F375EF00041CC7 /* EZXCapture.m */,
@@ -244,6 +249,7 @@
 				1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */,
 				1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */,
 				1E4C3DE520F10CBA00C3A582 /* AppDelegate.m in Sources */,
+				1E5EFDB4210A298F00995301 /* EZXingScanBasicView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
