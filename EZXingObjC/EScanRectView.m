@@ -1,14 +1,15 @@
 //
-//  EZXingScanBasicView.m
+//  EScanRectView.m
 //  EZXingObjC
 //
-//  Created by erics on 2018/7/27.
+//  Created by erics on 2018/7/30.
 //  Copyright © 2018年 EricsYinGroup. All rights reserved.
 //
 
-#import "EZXingScanBasicView.h"
+#import "EScanRectView.h"
 
-@implementation EZXingScanBasicView
+@implementation EScanRectView
+
 
 /*
 // Only override drawRect: if you perform custom drawing.
@@ -19,5 +20,3 @@
 */
 
 @end
-
-

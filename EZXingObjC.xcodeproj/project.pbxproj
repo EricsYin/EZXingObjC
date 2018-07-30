@@ -14,6 +14,8 @@
 		1E4C3DF020F10CBB00C3A582 /* '.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DEE20F10CBB00C3A582 /* '.storyboard */; };
 		1E4C3DF320F10CBB00C3A582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C3DF220F10CBB00C3A582 /* main.m */; };
 		1E5EFDB4210A298F00995301 /* EZXingScanBasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB3210A298F00995301 /* EZXingScanBasicView.m */; };
+		1E5EFDB7210EB1DE00995301 /* EScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB6210EB1DE00995301 /* EScanLineAnimation.m */; };
+		1E5EFDBA210EB77100995301 /* EScanRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB9210EB77100995301 /* EScanRectView.m */; };
 		1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF620F375EF00041CC7 /* EZXCapture.m */; };
 		1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */; };
 		1EFACB21210600E30043836A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFACB20210600E20043836A /* CoreGraphics.framework */; };
@@ -34,6 +36,10 @@
 		1E4C3DF220F10CBB00C3A582 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E5EFDB2210A298F00995301 /* EZXingScanBasicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingScanBasicView.h; sourceTree = "<group>"; };
 		1E5EFDB3210A298F00995301 /* EZXingScanBasicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingScanBasicView.m; sourceTree = "<group>"; };
+		1E5EFDB5210EB1DE00995301 /* EScanLineAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EScanLineAnimation.h; sourceTree = "<group>"; };
+		1E5EFDB6210EB1DE00995301 /* EScanLineAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EScanLineAnimation.m; sourceTree = "<group>"; };
+		1E5EFDB8210EB77100995301 /* EScanRectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EScanRectView.h; sourceTree = "<group>"; };
+		1E5EFDB9210EB77100995301 /* EScanRectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EScanRectView.m; sourceTree = "<group>"; };
 		1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCaptureDelegate.h; sourceTree = "<group>"; };
 		1EC3FAF520F375EF00041CC7 /* EZXCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCapture.h; sourceTree = "<group>"; };
 		1EC3FAF620F375EF00041CC7 /* EZXCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXCapture.m; sourceTree = "<group>"; };
@@ -90,6 +96,10 @@
 				1E4C3DEE20F10CBB00C3A582 /* '.storyboard */,
 				1E4C3DF120F10CBB00C3A582 /* Info.plist */,
 				1E4C3DF220F10CBB00C3A582 /* main.m */,
+				1E5EFDB8210EB77100995301 /* EScanRectView.h */,
+				1E5EFDB9210EB77100995301 /* EScanRectView.m */,
+				1E5EFDB5210EB1DE00995301 /* EScanLineAnimation.h */,
+				1E5EFDB6210EB1DE00995301 /* EScanLineAnimation.m */,
 				1E5EFDB2210A298F00995301 /* EZXingScanBasicView.h */,
 				1E5EFDB3210A298F00995301 /* EZXingScanBasicView.m */,
 				1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */,
@@ -244,10 +254,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5EFDB7210EB1DE00995301 /* EScanLineAnimation.m in Sources */,
 				1E4C3DE820F10CBA00C3A582 /* ViewController.m in Sources */,
 				1E4C3DF320F10CBB00C3A582 /* main.m in Sources */,
 				1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */,
 				1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */,
+				1E5EFDBA210EB77100995301 /* EScanRectView.m in Sources */,
 				1E4C3DE520F10CBA00C3A582 /* AppDelegate.m in Sources */,
 				1E5EFDB4210A298F00995301 /* EZXingScanBasicView.m in Sources */,
 			);

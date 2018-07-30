@@ -11,13 +11,13 @@
 @class ZXResult;  
 
 @protocol EZXCaptureDelegate <NSObject>
-///由zxing解析返回的结果
+#pragma mark  由ZXReader解析返回的结果
 - (void)captureResult:(EZXCapture *)capture result:(ZXResult *)result scanImage:(UIImage*)img;
 
 /////由系统CIDetector解析返回的结果
 //- (void)captureSystemResult:(LBXZXCapture *)capture result:(NSString *)result scanImage:(UIImage*)img;
 
-#pragma 实时返回capture output图片
+#pragma mark 实时返回capture output图片
 - (void)zxingLuminanceSourceImage:(UIImage*)image;
 
 
@@ -27,4 +27,5 @@
                 height:(NSNumber *)height;
 
 - (void)ECaptureCameraIsReady:(EZXCapture *)capture;
+
 @end

@@ -219,7 +219,8 @@
 }
 
 - (BOOL)hasFront {
-    NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
+    //NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
+    NSArray * devices = [AVCaptureDeviceDiscoverySession discoverySessionWithDeviceTypes:@[] mediaType:AVMediaTypeVideo position:AVCaptureDevicePositionUnspecified];
     return [devices count] > 1;
 }
 
