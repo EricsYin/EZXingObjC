@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
+
 typedef void(^flashBlock)(BOOL isSelected);
 
 typedef enum : NSUInteger {
@@ -57,5 +58,16 @@ typedef enum : NSUInteger {
  @param style 扫描样式
  */
 - (void)drawScanViewWithStyle:(OPScanRectStyle)style;
+
+/**
+ 扫描区域绘制为中间区域扫描框
+ */
+- (void)drawScanViewCenterRect;
+
+
+/**
+ 扫描区域绘制为顶部区域扫描
+ */
+- (void)drawScanViewTopRect;
 
 @end

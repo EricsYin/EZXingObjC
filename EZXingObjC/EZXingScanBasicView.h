@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EZXingWrapper.h"
+
+typedef void(^zxingResultBlock)(ZXBarcodeFormat barcodeFormat ,UIImage * image ,NSString * scanResult );
 
 @interface EZXingScanBasicView : UIView
+
+
+- (void)initiateZxingScanesultBlock:(zxingResultBlock)block;
+
+/**
+ ZXing扫码对象
+ */
+@property (nonatomic, strong) EZXingWrapper * zxingObj;
 
 @end

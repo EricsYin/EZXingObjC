@@ -8,19 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
 #import "ZXBarcodeFormat.h"
-
-typedef void(^ocrResultBlock)(NSString * phoneNumber,UIImage * scanImg);
 
 @interface EZXingWrapper : NSObject
 
-
-#define LBXScan_Define_ZXing
-
-
-
-@property (nonatomic, copy) ocrResultBlock ocrBlock;
 
 /**
  初始化ZXing

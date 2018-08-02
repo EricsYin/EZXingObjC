@@ -11,11 +11,12 @@
 		1E4C3DE820F10CBA00C3A582 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C3DE720F10CBA00C3A582 /* ViewController.m */; };
 		1E4C3DEB20F10CBA00C3A582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DE920F10CBA00C3A582 /* Main.storyboard */; };
 		1E4C3DED20F10CBB00C3A582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DEC20F10CBB00C3A582 /* Assets.xcassets */; };
-		1E4C3DF020F10CBB00C3A582 /* '.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DEE20F10CBB00C3A582 /* '.storyboard */; };
 		1E4C3DF320F10CBB00C3A582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C3DF220F10CBB00C3A582 /* main.m */; };
 		1E5EFDB4210A298F00995301 /* EZXingScanBasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB3210A298F00995301 /* EZXingScanBasicView.m */; };
 		1E5EFDB7210EB1DE00995301 /* EScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB6210EB1DE00995301 /* EScanLineAnimation.m */; };
 		1E5EFDBA210EB77100995301 /* EScanRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB9210EB77100995301 /* EScanRectView.m */; };
+		1E5EFDBD2110021C00995301 /* UIColor+EColorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDBC2110021C00995301 /* UIColor+EColorCategory.m */; };
+		1E5EFDC52111B36400995301 /* EZXingScanExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDC42111B36400995301 /* EZXingScanExample.m */; };
 		1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF620F375EF00041CC7 /* EZXCapture.m */; };
 		1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */; };
 		1EFACB21210600E30043836A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFACB20210600E20043836A /* CoreGraphics.framework */; };
@@ -31,7 +32,6 @@
 		1E4C3DE720F10CBA00C3A582 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1E4C3DEA20F10CBA00C3A582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E4C3DEC20F10CBB00C3A582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1E4C3DEF20F10CBB00C3A582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/'.storyboard"; sourceTree = "<group>"; };
 		1E4C3DF120F10CBB00C3A582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E4C3DF220F10CBB00C3A582 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E5EFDB2210A298F00995301 /* EZXingScanBasicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingScanBasicView.h; sourceTree = "<group>"; };
@@ -40,6 +40,12 @@
 		1E5EFDB6210EB1DE00995301 /* EScanLineAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EScanLineAnimation.m; sourceTree = "<group>"; };
 		1E5EFDB8210EB77100995301 /* EScanRectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EScanRectView.h; sourceTree = "<group>"; };
 		1E5EFDB9210EB77100995301 /* EScanRectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EScanRectView.m; sourceTree = "<group>"; };
+		1E5EFDBB2110021C00995301 /* UIColor+EColorCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+EColorCategory.h"; sourceTree = "<group>"; };
+		1E5EFDBC2110021C00995301 /* UIColor+EColorCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+EColorCategory.m"; sourceTree = "<group>"; };
+		1E5EFDC12111675800995301 /* EZXingObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingObjC.h; sourceTree = "<group>"; };
+		1E5EFDC221117A6200995301 /* LxDBAnything.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxDBAnything.h; sourceTree = "<group>"; };
+		1E5EFDC32111B36400995301 /* EZXingScanExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingScanExample.h; sourceTree = "<group>"; };
+		1E5EFDC42111B36400995301 /* EZXingScanExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingScanExample.m; sourceTree = "<group>"; };
 		1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCaptureDelegate.h; sourceTree = "<group>"; };
 		1EC3FAF520F375EF00041CC7 /* EZXCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCapture.h; sourceTree = "<group>"; };
 		1EC3FAF620F375EF00041CC7 /* EZXCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXCapture.m; sourceTree = "<group>"; };
@@ -91,22 +97,27 @@
 				1E4C3DE420F10CBA00C3A582 /* AppDelegate.m */,
 				1E4C3DE620F10CBA00C3A582 /* ViewController.h */,
 				1E4C3DE720F10CBA00C3A582 /* ViewController.m */,
+				1E5EFDC32111B36400995301 /* EZXingScanExample.h */,
+				1E5EFDC42111B36400995301 /* EZXingScanExample.m */,
 				1E4C3DE920F10CBA00C3A582 /* Main.storyboard */,
 				1E4C3DEC20F10CBB00C3A582 /* Assets.xcassets */,
-				1E4C3DEE20F10CBB00C3A582 /* '.storyboard */,
 				1E4C3DF120F10CBB00C3A582 /* Info.plist */,
 				1E4C3DF220F10CBB00C3A582 /* main.m */,
+				1E5EFDBB2110021C00995301 /* UIColor+EColorCategory.h */,
+				1E5EFDBC2110021C00995301 /* UIColor+EColorCategory.m */,
 				1E5EFDB8210EB77100995301 /* EScanRectView.h */,
 				1E5EFDB9210EB77100995301 /* EScanRectView.m */,
 				1E5EFDB5210EB1DE00995301 /* EScanLineAnimation.h */,
 				1E5EFDB6210EB1DE00995301 /* EScanLineAnimation.m */,
 				1E5EFDB2210A298F00995301 /* EZXingScanBasicView.h */,
 				1E5EFDB3210A298F00995301 /* EZXingScanBasicView.m */,
-				1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */,
 				1EC3FAF520F375EF00041CC7 /* EZXCapture.h */,
 				1EC3FAF620F375EF00041CC7 /* EZXCapture.m */,
 				1EC3FAF820F3763000041CC7 /* EZXingWrapper.h */,
 				1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */,
+				1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */,
+				1E5EFDC12111675800995301 /* EZXingObjC.h */,
+				1E5EFDC221117A6200995301 /* LxDBAnything.h */,
 			);
 			path = EZXingObjC;
 			sourceTree = "<group>";
@@ -190,7 +201,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E4C3DF020F10CBB00C3A582 /* '.storyboard in Resources */,
 				1E4C3DED20F10CBB00C3A582 /* Assets.xcassets in Resources */,
 				1E4C3DEB20F10CBA00C3A582 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +269,8 @@
 				1E4C3DF320F10CBB00C3A582 /* main.m in Sources */,
 				1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */,
 				1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */,
+				1E5EFDBD2110021C00995301 /* UIColor+EColorCategory.m in Sources */,
+				1E5EFDC52111B36400995301 /* EZXingScanExample.m in Sources */,
 				1E5EFDBA210EB77100995301 /* EScanRectView.m in Sources */,
 				1E4C3DE520F10CBA00C3A582 /* AppDelegate.m in Sources */,
 				1E5EFDB4210A298F00995301 /* EZXingScanBasicView.m in Sources */,
@@ -274,14 +286,6 @@
 				1E4C3DEA20F10CBA00C3A582 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1E4C3DEE20F10CBB00C3A582 /* '.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E4C3DEF20F10CBB00C3A582 /* Base */,
-			);
-			name = "'.storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

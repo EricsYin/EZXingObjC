@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "EZXingScanExample.h"
 
 @interface ViewController ()
 
@@ -14,10 +15,16 @@
 
 @implementation ViewController
 
+#pragma mark -  Life Cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    EZXingScanExample *vc = [EZXingScanExample new];
+    [self pushViewController:vc animated:NO];
+    
 }
+
+
 
 
 - (void)didReceiveMemoryWarning {

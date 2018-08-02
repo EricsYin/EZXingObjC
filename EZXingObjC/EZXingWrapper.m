@@ -121,12 +121,7 @@ typedef void(^blockScan)(ZXBarcodeFormat barcodeFormat,NSString *str,UIImage *sc
         
         return;
     }
-    
-    if (self.isOCR) {
-        //如果是OCR状态，即使检测到单号也不反悔
-        return;
-    }
-//    OPLog(@"ZxingBarcodeFormat = %u,ZxingScanResult = %@",result.barcodeFormat,result.text);
+
     if ( _block )
     {
         [self stop];
@@ -135,28 +130,11 @@ typedef void(^blockScan)(ZXBarcodeFormat barcodeFormat,NSString *str,UIImage *sc
     }
 }
 
-- (void)zxingLuminanceSourceImage:(UIImage *)image{
-    [self ocrPhoneWithImage:image];
-}
+
 
 #pragma mark - Private Method
 
-- (void)ocrPhoneWithImage:(UIImage *)image{
-    if (self.isOCR) {
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//
-//            [[OP_OCRManger sharedInstance] detectTextAccurateFromImage:image andinterval:1.0 WithResultHandle:^(NSString *phonenumber) {
-//
-//                if (self.ocrBlock) {
-//                    self.ocrBlock(phonenumber, image);
-//                }
-//
-//            } FailHandle:^(NSError *error) {
-//                OPLog(@"%@",[error localizedDescription]);
-//            }];
-//        });
-    }
-}
+
 
 #pragma mark - Public Method
 - (void)zxingExpressCodeOrOcrIphone:(BOOL)isOCR{
