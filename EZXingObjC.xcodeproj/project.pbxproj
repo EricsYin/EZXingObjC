@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0494A4BA99439184E3750363 /* libPods-EZXingObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E089D2E292540485293BCA3D /* libPods-EZXingObjC.a */; };
 		1E4C3DE520F10CBA00C3A582 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C3DE420F10CBA00C3A582 /* AppDelegate.m */; };
 		1E4C3DE820F10CBA00C3A582 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C3DE720F10CBA00C3A582 /* ViewController.m */; };
 		1E4C3DEB20F10CBA00C3A582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DE920F10CBA00C3A582 /* Main.storyboard */; };
 		1E4C3DED20F10CBB00C3A582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DEC20F10CBB00C3A582 /* Assets.xcassets */; };
 		1E4C3DF320F10CBB00C3A582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C3DF220F10CBB00C3A582 /* main.m */; };
 		1E5EFDB4210A298F00995301 /* EZXingScanBasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB3210A298F00995301 /* EZXingScanBasicView.m */; };
-		1E5EFDB7210EB1DE00995301 /* EScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB6210EB1DE00995301 /* EScanLineAnimation.m */; };
 		1E5EFDBA210EB77100995301 /* EScanRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB9210EB77100995301 /* EScanRectView.m */; };
 		1E5EFDBD2110021C00995301 /* UIColor+EColorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDBC2110021C00995301 /* UIColor+EColorCategory.m */; };
 		1E5EFDC52111B36400995301 /* EZXingScanExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDC42111B36400995301 /* EZXingScanExample.m */; };
+		1E5EFDC82113EE0C00995301 /* EZXingScanWeChatExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDC72113EE0C00995301 /* EZXingScanWeChatExampleViewController.m */; };
+		1E5EFDCB2113EE2000995301 /* EZXingScanAliPayExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDCA2113EE2000995301 /* EZXingScanAliPayExampleViewController.m */; };
+		1E5EFDCE2113EEC800995301 /* EZXingScanUIViewExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDCD2113EEC800995301 /* EZXingScanUIViewExample.m */; };
+		1E5EFDD12113EEDC00995301 /* EZXingScanViewControllerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDD02113EEDC00995301 /* EZXingScanViewControllerExample.m */; };
+		1E5EFDD72113EF2600995301 /* EZXingScanCustomScanRectVCExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDD62113EF2600995301 /* EZXingScanCustomScanRectVCExample.m */; };
+		1E5EFDDA2113EF4600995301 /* EZXingScanCustomScanRectViewExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDD92113EF4600995301 /* EZXingScanCustomScanRectViewExample.m */; };
+		1E5EFDDD2113FCE500995301 /* EScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB6210EB1DE00995301 /* EScanLineAnimation.m */; };
 		1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF620F375EF00041CC7 /* EZXCapture.m */; };
 		1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */; };
 		1EFACB21210600E30043836A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFACB20210600E20043836A /* CoreGraphics.framework */; };
 		1EFACB23210600FE0043836A /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFACB22210600FE0043836A /* CoreImage.framework */; };
-		472C39580665043BCC28BF36 /* libPods-EZXingObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3E8881FEF4886C2C200AA5 /* libPods-EZXingObjC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +52,19 @@
 		1E5EFDC221117A6200995301 /* LxDBAnything.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxDBAnything.h; sourceTree = "<group>"; };
 		1E5EFDC32111B36400995301 /* EZXingScanExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingScanExample.h; sourceTree = "<group>"; };
 		1E5EFDC42111B36400995301 /* EZXingScanExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingScanExample.m; sourceTree = "<group>"; };
+		1E5EFDC62113EE0C00995301 /* EZXingScanWeChatExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingScanWeChatExampleViewController.h; sourceTree = "<group>"; };
+		1E5EFDC72113EE0C00995301 /* EZXingScanWeChatExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingScanWeChatExampleViewController.m; sourceTree = "<group>"; };
+		1E5EFDC92113EE2000995301 /* EZXingScanAliPayExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingScanAliPayExampleViewController.h; sourceTree = "<group>"; };
+		1E5EFDCA2113EE2000995301 /* EZXingScanAliPayExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingScanAliPayExampleViewController.m; sourceTree = "<group>"; };
+		1E5EFDCC2113EEC800995301 /* EZXingScanUIViewExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingScanUIViewExample.h; sourceTree = "<group>"; };
+		1E5EFDCD2113EEC800995301 /* EZXingScanUIViewExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingScanUIViewExample.m; sourceTree = "<group>"; };
+		1E5EFDCF2113EEDC00995301 /* EZXingScanViewControllerExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingScanViewControllerExample.h; sourceTree = "<group>"; };
+		1E5EFDD02113EEDC00995301 /* EZXingScanViewControllerExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingScanViewControllerExample.m; sourceTree = "<group>"; };
+		1E5EFDD52113EF2600995301 /* EZXingScanCustomScanRectVCExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingScanCustomScanRectVCExample.h; sourceTree = "<group>"; };
+		1E5EFDD62113EF2600995301 /* EZXingScanCustomScanRectVCExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingScanCustomScanRectVCExample.m; sourceTree = "<group>"; };
+		1E5EFDD82113EF4600995301 /* EZXingScanCustomScanRectViewExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingScanCustomScanRectViewExample.h; sourceTree = "<group>"; };
+		1E5EFDD92113EF4600995301 /* EZXingScanCustomScanRectViewExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingScanCustomScanRectViewExample.m; sourceTree = "<group>"; };
+		1E5EFDDE211412F700995301 /* EZXingObjCPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZXingObjCPrefixHeader.pch; sourceTree = "<group>"; };
 		1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCaptureDelegate.h; sourceTree = "<group>"; };
 		1EC3FAF520F375EF00041CC7 /* EZXCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCapture.h; sourceTree = "<group>"; };
 		1EC3FAF620F375EF00041CC7 /* EZXCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXCapture.m; sourceTree = "<group>"; };
@@ -55,7 +74,7 @@
 		1EFACB22210600FE0043836A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		3A7E6E67B43349F4D51C1A53 /* Pods-EZXingObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZXingObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZXingObjC/Pods-EZXingObjC.release.xcconfig"; sourceTree = "<group>"; };
 		548C5ABA069BFC33BAADED85 /* Pods-EZXingObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZXingObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZXingObjC/Pods-EZXingObjC.debug.xcconfig"; sourceTree = "<group>"; };
-		EA3E8881FEF4886C2C200AA5 /* libPods-EZXingObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EZXingObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E089D2E292540485293BCA3D /* libPods-EZXingObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EZXingObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +84,7 @@
 			files = (
 				1EFACB23210600FE0043836A /* CoreImage.framework in Frameworks */,
 				1EFACB21210600E30043836A /* CoreGraphics.framework in Frameworks */,
-				472C39580665043BCC28BF36 /* libPods-EZXingObjC.a in Frameworks */,
+				0494A4BA99439184E3750363 /* libPods-EZXingObjC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +112,7 @@
 		1E4C3DE220F10CBA00C3A582 /* EZXingObjC */ = {
 			isa = PBXGroup;
 			children = (
+				1E5EFDDE211412F700995301 /* EZXingObjCPrefixHeader.pch */,
 				1E4C3DE320F10CBA00C3A582 /* AppDelegate.h */,
 				1E4C3DE420F10CBA00C3A582 /* AppDelegate.m */,
 				1E4C3DE620F10CBA00C3A582 /* ViewController.h */,
@@ -103,6 +123,18 @@
 				1E4C3DEC20F10CBB00C3A582 /* Assets.xcassets */,
 				1E4C3DF120F10CBB00C3A582 /* Info.plist */,
 				1E4C3DF220F10CBB00C3A582 /* main.m */,
+				1E5EFDCF2113EEDC00995301 /* EZXingScanViewControllerExample.h */,
+				1E5EFDD02113EEDC00995301 /* EZXingScanViewControllerExample.m */,
+				1E5EFDD82113EF4600995301 /* EZXingScanCustomScanRectViewExample.h */,
+				1E5EFDD92113EF4600995301 /* EZXingScanCustomScanRectViewExample.m */,
+				1E5EFDD52113EF2600995301 /* EZXingScanCustomScanRectVCExample.h */,
+				1E5EFDD62113EF2600995301 /* EZXingScanCustomScanRectVCExample.m */,
+				1E5EFDCC2113EEC800995301 /* EZXingScanUIViewExample.h */,
+				1E5EFDCD2113EEC800995301 /* EZXingScanUIViewExample.m */,
+				1E5EFDC92113EE2000995301 /* EZXingScanAliPayExampleViewController.h */,
+				1E5EFDCA2113EE2000995301 /* EZXingScanAliPayExampleViewController.m */,
+				1E5EFDC62113EE0C00995301 /* EZXingScanWeChatExampleViewController.h */,
+				1E5EFDC72113EE0C00995301 /* EZXingScanWeChatExampleViewController.m */,
 				1E5EFDBB2110021C00995301 /* UIColor+EColorCategory.h */,
 				1E5EFDBC2110021C00995301 /* UIColor+EColorCategory.m */,
 				1E5EFDB8210EB77100995301 /* EScanRectView.h */,
@@ -136,7 +168,7 @@
 			children = (
 				1EFACB22210600FE0043836A /* CoreImage.framework */,
 				1EFACB20210600E20043836A /* CoreGraphics.framework */,
-				EA3E8881FEF4886C2C200AA5 /* libPods-EZXingObjC.a */,
+				E089D2E292540485293BCA3D /* libPods-EZXingObjC.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -264,16 +296,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E5EFDB7210EB1DE00995301 /* EScanLineAnimation.m in Sources */,
+				1E5EFDDD2113FCE500995301 /* EScanLineAnimation.m in Sources */,
+				1E5EFDD12113EEDC00995301 /* EZXingScanViewControllerExample.m in Sources */,
 				1E4C3DE820F10CBA00C3A582 /* ViewController.m in Sources */,
+				1E5EFDD72113EF2600995301 /* EZXingScanCustomScanRectVCExample.m in Sources */,
 				1E4C3DF320F10CBB00C3A582 /* main.m in Sources */,
 				1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */,
 				1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */,
 				1E5EFDBD2110021C00995301 /* UIColor+EColorCategory.m in Sources */,
+				1E5EFDCE2113EEC800995301 /* EZXingScanUIViewExample.m in Sources */,
 				1E5EFDC52111B36400995301 /* EZXingScanExample.m in Sources */,
 				1E5EFDBA210EB77100995301 /* EScanRectView.m in Sources */,
+				1E5EFDC82113EE0C00995301 /* EZXingScanWeChatExampleViewController.m in Sources */,
 				1E4C3DE520F10CBA00C3A582 /* AppDelegate.m in Sources */,
 				1E5EFDB4210A298F00995301 /* EZXingScanBasicView.m in Sources */,
+				1E5EFDCB2113EE2000995301 /* EZXingScanAliPayExampleViewController.m in Sources */,
+				1E5EFDDA2113EF4600995301 /* EZXingScanCustomScanRectViewExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +368,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -387,6 +426,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -408,10 +448,26 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RUMY2P44YY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/EZXingObjC/EZXingObjCPrefixHeader.pch";
 				INFOPLIST_FILE = EZXingObjC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"-ObjC",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"QuartzCore\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.EnyLine.EZXingObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,10 +482,26 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RUMY2P44YY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/EZXingObjC/EZXingObjCPrefixHeader.pch";
 				INFOPLIST_FILE = EZXingObjC/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"-ObjC",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"QuartzCore\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.EnyLine.EZXingObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";

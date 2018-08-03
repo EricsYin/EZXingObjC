@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -527,7 +527,7 @@
 		14B720121F2BD53E7B1212E93408C2A0 /* ZXITFReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXITFReader.m; path = ZXingObjC/oned/ZXITFReader.m; sourceTree = "<group>"; };
 		15CE3EE19595B16DF3AE0723751A9D87 /* ZXMaxiCodeReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXMaxiCodeReader.m; path = ZXingObjC/maxicode/ZXMaxiCodeReader.m; sourceTree = "<group>"; };
 		169A53993CE5834231B459B07B2DBEC8 /* ZXDataMatrixDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixDetector.h; path = ZXingObjC/datamatrix/detector/ZXDataMatrixDetector.h; sourceTree = "<group>"; };
-		16CAE7CB155196840F5CBF7C64468B04 /* libPods-EZXingObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EZXingObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CAE7CB155196840F5CBF7C64468B04 /* libPods-EZXingObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-EZXingObjC.a"; path = "libPods-EZXingObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16CF73C7338A32DA3623D3AC9D9D69B9 /* ZXAbstractDoCoMoResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAbstractDoCoMoResultParser.m; path = ZXingObjC/client/result/ZXAbstractDoCoMoResultParser.m; sourceTree = "<group>"; };
 		17A3949A1F67B66E3935A24BA478342E /* ZXGenericGF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXGenericGF.m; path = ZXingObjC/common/reedsolomon/ZXGenericGF.m; sourceTree = "<group>"; };
 		18258B09EE599B59F189ED8DA9E66370 /* ZXDataMatrixC40Encoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixC40Encoder.h; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixC40Encoder.h; sourceTree = "<group>"; };
@@ -669,7 +669,7 @@
 		5E95A2504660DAFD48D8E12974A49DE3 /* ZXDataMatrixX12Encoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDataMatrixX12Encoder.m; path = ZXingObjC/datamatrix/encoder/ZXDataMatrixX12Encoder.m; sourceTree = "<group>"; };
 		5E9C82A110D0FBDA32ECFF86B2FD68FD /* ZXAztecHighLevelEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXAztecHighLevelEncoder.m; path = ZXingObjC/aztec/encoder/ZXAztecHighLevelEncoder.m; sourceTree = "<group>"; };
 		5FF03ED5BD6618E15E02659FD36F487C /* ZXQRCodeFinderPattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeFinderPattern.h; path = ZXingObjC/qrcode/detector/ZXQRCodeFinderPattern.h; sourceTree = "<group>"; };
-		6034F99FC2A572AC5D3047E6135EE829 /* libZXingObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZXingObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6034F99FC2A572AC5D3047E6135EE829 /* libZXingObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZXingObjC.a; path = libZXingObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		603C2E63F1554CCD42BA0B60A5F9ED83 /* ZXHybridBinarizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXHybridBinarizer.m; path = ZXingObjC/common/ZXHybridBinarizer.m; sourceTree = "<group>"; };
 		6066D47C5ABDEB9F47FD745C0FC4E7AC /* ZXCode128Writer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXCode128Writer.h; path = ZXingObjC/oned/ZXCode128Writer.h; sourceTree = "<group>"; };
 		608C2313C443FC6DCF4F7E54E091F5C5 /* ZXOneDReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXOneDReader.h; path = ZXingObjC/oned/ZXOneDReader.h; sourceTree = "<group>"; };
@@ -754,7 +754,7 @@
 		91DDDE25B8A9262441EB53E940798548 /* ZXDimension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDimension.m; path = ZXingObjC/core/ZXDimension.m; sourceTree = "<group>"; };
 		92A79510CE6BF18449B23CBCC187A7F9 /* ZXQRCodeErrorCorrectionLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeErrorCorrectionLevel.h; path = ZXingObjC/qrcode/decoder/ZXQRCodeErrorCorrectionLevel.h; sourceTree = "<group>"; };
 		92B2073433F9CB22FAC371A5FF4134A5 /* ZXErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXErrors.m; path = ZXingObjC/core/ZXErrors.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93FDBE1BBC5F663345E63EF8398C1FB1 /* ZXBitArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXBitArray.m; path = ZXingObjC/common/ZXBitArray.m; sourceTree = "<group>"; };
 		945D66FA9AF343DC240D5C64F2D1E5BE /* ZXPDF417Dimensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417Dimensions.m; path = ZXingObjC/pdf417/encoder/ZXPDF417Dimensions.m; sourceTree = "<group>"; };
 		956BC16498BDA51F19EAE1EE27DBFA94 /* ZXVINParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXVINParsedResult.h; path = ZXingObjC/client/result/ZXVINParsedResult.h; sourceTree = "<group>"; };
@@ -1500,6 +1500,7 @@
 				22AEDCE508A64150FD49ECCEB89B9070 /* All */,
 				AE0A0718E6EB23E6209FAB0C9EEF55C7 /* Support Files */,
 			);
+			name = ZXingObjC;
 			path = ZXingObjC;
 			sourceTree = "<group>";
 		};
@@ -1507,8 +1508,8 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				867B8BDA5A3515728556D98C9875465A /* Pods */,
 				F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */,
+				867B8BDA5A3515728556D98C9875465A /* Pods */,
 				0E45459133A82A5A243AF1BF534EB7BD /* Products */,
 				54E6A471E1FB67A32D3DD447249C8E0F /* Targets Support Files */,
 			);

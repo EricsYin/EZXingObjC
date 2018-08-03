@@ -8,14 +8,34 @@
 
 #import "EZXingScanBasicView.h"
 #import "EScanRectView.h"
+#import "EZXingObjC.h"
 
 @interface EZXingScanBasicView ()
 
 @property (nonatomic, copy) zxingResultBlock  resultBlock;
 
+@property (nonatomic, strong) EScanRectView * scanRectView;
+
 @end
 
 @implementation EZXingScanBasicView
+
+
+
+#pragma mark Private Method
+
+- (void)loadPage{
+    __weak typeof(self)weakSelf = self;
+    if (!self.scanRectView) {
+        self.scanRectView = [[EScanRectView alloc]initWithFrame:CGRectMake(0, kNavigationBarHeight,kScreenWidth, kScreenHeight - kNavigationBarHeight)];
+        [self.scanRectView drawScanViewWithStyle:OPScanTopRectStyle];
+        [self addSubview:self.scanRectView];
+        
+        self.scanRectView.flashBlock = ^(BOOL isSelected) {
+            [weakSelf.zxingObj openTorch:isSelected];
+        };
+    }
+}
 
 
 
@@ -51,7 +71,6 @@
 
 
 #pragma mark Privare Method
-
 //启动设备
 - (void)startScan
 {
