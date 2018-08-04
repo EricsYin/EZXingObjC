@@ -20,6 +20,14 @@
 
 @implementation EZXingScanBasicView
 
+#pragma mark Life Cycle
+- (instancetype)initWithFrame:(CGRect)frame{
+    if (self == [super initWithFrame:frame]) {
+        [self loadPage];
+    }
+    return self;
+}
+
 
 
 #pragma mark Private Method
