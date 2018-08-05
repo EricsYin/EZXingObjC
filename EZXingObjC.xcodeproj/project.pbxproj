@@ -24,6 +24,7 @@
 		1E5EFDD72113EF2600995301 /* EZXingScanCustomScanRectVCExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDD62113EF2600995301 /* EZXingScanCustomScanRectVCExample.m */; };
 		1E5EFDDA2113EF4600995301 /* EZXingScanCustomScanRectViewExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDD92113EF4600995301 /* EZXingScanCustomScanRectViewExample.m */; };
 		1E5EFDDD2113FCE500995301 /* EScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB6210EB1DE00995301 /* EScanLineAnimation.m */; };
+		1E5EFDE1211752B600995301 /* EScanRectStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDE0211752B600995301 /* EScanRectStyle.m */; };
 		1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF620F375EF00041CC7 /* EZXCapture.m */; };
 		1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */; };
 		1EFACB21210600E30043836A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFACB20210600E20043836A /* CoreGraphics.framework */; };
@@ -65,6 +66,8 @@
 		1E5EFDD82113EF4600995301 /* EZXingScanCustomScanRectViewExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingScanCustomScanRectViewExample.h; sourceTree = "<group>"; };
 		1E5EFDD92113EF4600995301 /* EZXingScanCustomScanRectViewExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingScanCustomScanRectViewExample.m; sourceTree = "<group>"; };
 		1E5EFDDE211412F700995301 /* EZXingObjCPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZXingObjCPrefixHeader.pch; sourceTree = "<group>"; };
+		1E5EFDDF211752B600995301 /* EScanRectStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EScanRectStyle.h; sourceTree = "<group>"; };
+		1E5EFDE0211752B600995301 /* EScanRectStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EScanRectStyle.m; sourceTree = "<group>"; };
 		1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCaptureDelegate.h; sourceTree = "<group>"; };
 		1EC3FAF520F375EF00041CC7 /* EZXCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCapture.h; sourceTree = "<group>"; };
 		1EC3FAF620F375EF00041CC7 /* EZXCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXCapture.m; sourceTree = "<group>"; };
@@ -150,6 +153,8 @@
 				1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */,
 				1E5EFDC12111675800995301 /* EZXingObjC.h */,
 				1E5EFDC221117A6200995301 /* LxDBAnything.h */,
+				1E5EFDDF211752B600995301 /* EScanRectStyle.h */,
+				1E5EFDE0211752B600995301 /* EScanRectStyle.m */,
 			);
 			path = EZXingObjC;
 			sourceTree = "<group>";
@@ -300,6 +305,7 @@
 				1E5EFDD12113EEDC00995301 /* EZXingScanViewControllerExample.m in Sources */,
 				1E4C3DE820F10CBA00C3A582 /* ViewController.m in Sources */,
 				1E5EFDD72113EF2600995301 /* EZXingScanCustomScanRectVCExample.m in Sources */,
+				1E5EFDE1211752B600995301 /* EScanRectStyle.m in Sources */,
 				1E4C3DF320F10CBB00C3A582 /* main.m in Sources */,
 				1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */,
 				1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */,
@@ -452,7 +458,10 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/EZXingObjC/EZXingObjCPrefixHeader.pch";
 				INFOPLIST_FILE = EZXingObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -486,7 +495,10 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/EZXingObjC/EZXingObjCPrefixHeader.pch";
 				INFOPLIST_FILE = EZXingObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
