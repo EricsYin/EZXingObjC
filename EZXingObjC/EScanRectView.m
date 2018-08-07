@@ -29,7 +29,7 @@ CGFloat ERCameraRectHeight = 175;
 ///>扫描区域的高度
 CGFloat ErScanRectHeight = 125;
 
-///>扫码区域4个角的宽度和高度
+///>扫码区域4个角的宽度和高度·
 CGFloat photoframeAngleW  = 15;
 CGFloat photoframeAngleH  = 15;
 /**

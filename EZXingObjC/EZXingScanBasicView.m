@@ -9,6 +9,7 @@
 #import "EZXingScanBasicView.h"
 #import "EScanRectView.h"
 #import "EZXingObjC.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface EZXingScanBasicView ()
 
@@ -34,10 +35,10 @@
 
 - (void)loadPage{
     __weak typeof(self)weakSelf = self;
-    if (!self.scanRectView) {
+    if (!_scanRectView) {
         self.scanRectView = [[EScanRectView alloc]initWithFrame:CGRectMake(0, kNavigationBarHeight,kScreenWidth, kScreenHeight - kNavigationBarHeight)];
-        [self.scanRectView drawScanViewWithStyle:OPScanTopRectStyle];
-        [self addSubview:self.scanRectView];
+        [self.scanRectView drawScanViewWithStyle:OPScanCenterRectStyle];
+        [self insertSubview:self.scanRectView atIndex:0];
         
         self.scanRectView.flashBlock = ^(BOOL isSelected) {
             [weakSelf.zxingObj openTorch:isSelected];
@@ -60,8 +61,7 @@
     [self requestCameraPemissionWithResult:^(BOOL granted) {
         
         if (granted) {
-            
-            //            [OPHUDTool showMessage:@""];
+   
             //            //不延时，动画出不来，需要延时，再处理
             //            [self performSelector:@selector(startScan) withObject:nil afterDelay:0.3];
             
@@ -69,8 +69,8 @@
             
             
         }else{
-            
-            [OPHUDTool showError:@"   请到设置隐私中开启本程序相机权限   "];
+            // 做一些alert提示关于相机权限的提示
+        
         }
     }];
     
@@ -79,6 +79,45 @@
 
 
 #pragma mark Privare Method
+/**
+ 获取相机权限
+ */
+- (void)requestCameraPemissionWithResult:(void(^)( BOOL granted))completion
+{
+    if ([AVCaptureDevice respondsToSelector:@selector(authorizationStatusForMediaType:)])
+    {
+        AVAuthorizationStatus permission =
+        [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];
+        
+        switch (permission) {
+            case AVAuthorizationStatusAuthorized:
+                completion(YES);
+                break;
+            case AVAuthorizationStatusDenied:
+            case AVAuthorizationStatusRestricted:
+                completion(NO);
+                break;
+            case AVAuthorizationStatusNotDetermined:
+            {
+                [AVCaptureDevice requestAccessForMediaType:AVMediaTypeVideo
+                                         completionHandler:^(BOOL granted) {
+                                             
+                                             dispatch_async(dispatch_get_main_queue(), ^{
+                                                 if (granted) {
+                                                     completion(true);
+                                                 } else {
+                                                     completion(false);
+                                                 }
+                                             });
+                                             
+                                         }];
+            }
+                break;
+                
+        }
+    }
+}
+
 //启动设备
 - (void)startScan
 {
