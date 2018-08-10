@@ -34,8 +34,10 @@
 }
 
 - (void)addCell:(NSString *)title class:(NSString *)className {
+    
     [self.titles addObject:title];
     [self.classNames addObject:className];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -61,7 +63,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *className = self.classNames[indexPath.row];
-    Class class = NSClassFromString(className);
+    Class class = NSClassFromString(className);        
+    
     if (class) {
         UIViewController * example = class.new;
         example.title = _titles[indexPath.row];
