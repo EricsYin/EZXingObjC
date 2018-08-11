@@ -57,7 +57,6 @@
 #else
     [self.zxingObj hardStartScan];
     
-    
     [self requestCameraPemissionWithResult:^(BOOL granted) {
         
         if (granted) {

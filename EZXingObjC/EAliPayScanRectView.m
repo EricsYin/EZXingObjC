@@ -1,14 +1,14 @@
 //
-//  EWechatScanView.m
+//  EAliPayScanRectView.m
 //  EZXingObjC
 //
-//  Created by erics on 2018/8/10.
+//  Created by erics on 2018/8/11.
 //  Copyright © 2018年 EricsYinGroup. All rights reserved.
 //
 
-#import "EWechatScanView.h"
+#import "EAliPayScanRectView.h"
 
-@implementation EWechatScanView
+@implementation EAliPayScanRectView
 
 /*
 // Only override drawRect: if you perform custom drawing.

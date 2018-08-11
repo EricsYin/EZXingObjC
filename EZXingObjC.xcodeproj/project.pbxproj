@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0494A4BA99439184E3750363 /* libPods-EZXingObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E089D2E292540485293BCA3D /* libPods-EZXingObjC.a */; };
+		1E2C2B80211EF3B800C42136 /* EAliPayScanRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2C2B7F211EF3B800C42136 /* EAliPayScanRectView.m */; };
+		1E2C2B83211EF3DE00C42136 /* EWeChatScanRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2C2B82211EF3DE00C42136 /* EWeChatScanRectView.m */; };
 		1E4C3DE520F10CBA00C3A582 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C3DE420F10CBA00C3A582 /* AppDelegate.m */; };
 		1E4C3DE820F10CBA00C3A582 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C3DE720F10CBA00C3A582 /* ViewController.m */; };
 		1E4C3DEB20F10CBA00C3A582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DE920F10CBA00C3A582 /* Main.storyboard */; };
@@ -25,7 +27,6 @@
 		1E5EFDDA2113EF4600995301 /* EZXingScanCustomScanRectViewExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDD92113EF4600995301 /* EZXingScanCustomScanRectViewExample.m */; };
 		1E5EFDDD2113FCE500995301 /* EScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB6210EB1DE00995301 /* EScanLineAnimation.m */; };
 		1E5EFDE1211752B600995301 /* EScanRectStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDE0211752B600995301 /* EScanRectStyle.m */; };
-		1E5EFDE4211DED6800995301 /* EWechatScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDE3211DED6700995301 /* EWechatScanView.m */; };
 		1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF620F375EF00041CC7 /* EZXCapture.m */; };
 		1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */; };
 		1EFACB21210600E30043836A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFACB20210600E20043836A /* CoreGraphics.framework */; };
@@ -33,6 +34,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E2C2B7E211EF3B800C42136 /* EAliPayScanRectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAliPayScanRectView.h; sourceTree = "<group>"; };
+		1E2C2B7F211EF3B800C42136 /* EAliPayScanRectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAliPayScanRectView.m; sourceTree = "<group>"; };
+		1E2C2B81211EF3DE00C42136 /* EWeChatScanRectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWeChatScanRectView.h; sourceTree = "<group>"; };
+		1E2C2B82211EF3DE00C42136 /* EWeChatScanRectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWeChatScanRectView.m; sourceTree = "<group>"; };
 		1E4C3DE020F10CBA00C3A582 /* EZXingObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZXingObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4C3DE320F10CBA00C3A582 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E4C3DE420F10CBA00C3A582 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,8 +74,6 @@
 		1E5EFDDE211412F700995301 /* EZXingObjCPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZXingObjCPrefixHeader.pch; sourceTree = "<group>"; };
 		1E5EFDDF211752B600995301 /* EScanRectStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EScanRectStyle.h; sourceTree = "<group>"; };
 		1E5EFDE0211752B600995301 /* EScanRectStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EScanRectStyle.m; sourceTree = "<group>"; };
-		1E5EFDE2211DED6700995301 /* EWechatScanView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWechatScanView.h; sourceTree = "<group>"; };
-		1E5EFDE3211DED6700995301 /* EWechatScanView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWechatScanView.m; sourceTree = "<group>"; };
 		1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCaptureDelegate.h; sourceTree = "<group>"; };
 		1EC3FAF520F375EF00041CC7 /* EZXCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCapture.h; sourceTree = "<group>"; };
 		1EC3FAF620F375EF00041CC7 /* EZXCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXCapture.m; sourceTree = "<group>"; };
@@ -129,8 +132,10 @@
 				1E4C3DEC20F10CBB00C3A582 /* Assets.xcassets */,
 				1E4C3DF120F10CBB00C3A582 /* Info.plist */,
 				1E4C3DF220F10CBB00C3A582 /* main.m */,
-				1E5EFDE2211DED6700995301 /* EWechatScanView.h */,
-				1E5EFDE3211DED6700995301 /* EWechatScanView.m */,
+				1E2C2B81211EF3DE00C42136 /* EWeChatScanRectView.h */,
+				1E2C2B82211EF3DE00C42136 /* EWeChatScanRectView.m */,
+				1E2C2B7E211EF3B800C42136 /* EAliPayScanRectView.h */,
+				1E2C2B7F211EF3B800C42136 /* EAliPayScanRectView.m */,
 				1E5EFDCF2113EEDC00995301 /* EZXingScanViewControllerExample.h */,
 				1E5EFDD02113EEDC00995301 /* EZXingScanViewControllerExample.m */,
 				1E5EFDD82113EF4600995301 /* EZXingScanCustomScanRectViewExample.h */,
@@ -309,7 +314,6 @@
 				1E5EFDDD2113FCE500995301 /* EScanLineAnimation.m in Sources */,
 				1E5EFDD12113EEDC00995301 /* EZXingScanViewControllerExample.m in Sources */,
 				1E4C3DE820F10CBA00C3A582 /* ViewController.m in Sources */,
-				1E5EFDE4211DED6800995301 /* EWechatScanView.m in Sources */,
 				1E5EFDD72113EF2600995301 /* EZXingScanCustomScanRectVCExample.m in Sources */,
 				1E5EFDE1211752B600995301 /* EScanRectStyle.m in Sources */,
 				1E4C3DF320F10CBB00C3A582 /* main.m in Sources */,
@@ -319,7 +323,9 @@
 				1E5EFDCE2113EEC800995301 /* EZXingScanUIViewExample.m in Sources */,
 				1E5EFDC52111B36400995301 /* EZXingScanExample.m in Sources */,
 				1E5EFDBA210EB77100995301 /* EScanRectView.m in Sources */,
+				1E2C2B80211EF3B800C42136 /* EAliPayScanRectView.m in Sources */,
 				1E5EFDC82113EE0C00995301 /* EZXingScanWeChatExampleViewController.m in Sources */,
+				1E2C2B83211EF3DE00C42136 /* EWeChatScanRectView.m in Sources */,
 				1E4C3DE520F10CBA00C3A582 /* AppDelegate.m in Sources */,
 				1E5EFDB4210A298F00995301 /* EZXingScanBasicView.m in Sources */,
 				1E5EFDCB2113EE2000995301 /* EZXingScanAliPayExampleViewController.m in Sources */,
