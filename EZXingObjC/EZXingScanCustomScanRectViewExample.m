@@ -7,9 +7,10 @@
 //
 
 #import "EZXingScanCustomScanRectViewExample.h"
-
+#import "EZXingScanBasicView.h"
+#import "EZXingObjC.h"
 @interface EZXingScanCustomScanRectViewExample ()
-
+@property (nonatomic, strong) EZXingScanBasicView * scanBasicView;
 @end
 
 @implementation EZXingScanCustomScanRectViewExample
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    if (!_scanBasicView) {
+        self.scanBasicView = [[EZXingScanBasicView alloc]initWithFrame:CGRectMake(0, kNavigationBarHeight, kScreenWidth, kScreenHeight - kNavigationBarHeight)];
+        [self.scanBasicView initiateZxingScanesultBlock:^(ZXBarcodeFormat barcodeFormat, UIImage *image, NSString *scanResult) {
+            
+        }];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
