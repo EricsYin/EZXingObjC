@@ -15,6 +15,7 @@
 		1E4C3DEB20F10CBA00C3A582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DE920F10CBA00C3A582 /* Main.storyboard */; };
 		1E4C3DED20F10CBB00C3A582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DEC20F10CBB00C3A582 /* Assets.xcassets */; };
 		1E4C3DF320F10CBB00C3A582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C3DF220F10CBB00C3A582 /* main.m */; };
+		1E4EFE2B2121D27D0062733B /* EScanGridAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4EFE2A2121D27D0062733B /* EScanGridAnimation.m */; };
 		1E5EFDB4210A298F00995301 /* EZXingScanBasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB3210A298F00995301 /* EZXingScanBasicView.m */; };
 		1E5EFDBA210EB77100995301 /* EScanRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB9210EB77100995301 /* EScanRectView.m */; };
 		1E5EFDBD2110021C00995301 /* UIColor+EColorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDBC2110021C00995301 /* UIColor+EColorCategory.m */; };
@@ -47,6 +48,8 @@
 		1E4C3DEC20F10CBB00C3A582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E4C3DF120F10CBB00C3A582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E4C3DF220F10CBB00C3A582 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E4EFE292121D27D0062733B /* EScanGridAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EScanGridAnimation.h; sourceTree = "<group>"; };
+		1E4EFE2A2121D27D0062733B /* EScanGridAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EScanGridAnimation.m; sourceTree = "<group>"; };
 		1E5EFDB2210A298F00995301 /* EZXingScanBasicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingScanBasicView.h; sourceTree = "<group>"; };
 		1E5EFDB3210A298F00995301 /* EZXingScanBasicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingScanBasicView.m; sourceTree = "<group>"; };
 		1E5EFDB5210EB1DE00995301 /* EScanLineAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EScanLineAnimation.h; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				1E4C3DEC20F10CBB00C3A582 /* Assets.xcassets */,
 				1E4C3DF120F10CBB00C3A582 /* Info.plist */,
 				1E4C3DF220F10CBB00C3A582 /* main.m */,
+				1E4EFE292121D27D0062733B /* EScanGridAnimation.h */,
+				1E4EFE2A2121D27D0062733B /* EScanGridAnimation.m */,
 				1E2C2B81211EF3DE00C42136 /* EWeChatScanRectView.h */,
 				1E2C2B82211EF3DE00C42136 /* EWeChatScanRectView.m */,
 				1E2C2B7E211EF3B800C42136 /* EAliPayScanRectView.h */,
@@ -326,6 +331,7 @@
 				1E2C2B80211EF3B800C42136 /* EAliPayScanRectView.m in Sources */,
 				1E5EFDC82113EE0C00995301 /* EZXingScanWeChatExampleViewController.m in Sources */,
 				1E2C2B83211EF3DE00C42136 /* EWeChatScanRectView.m in Sources */,
+				1E4EFE2B2121D27D0062733B /* EScanGridAnimation.m in Sources */,
 				1E4C3DE520F10CBA00C3A582 /* AppDelegate.m in Sources */,
 				1E5EFDB4210A298F00995301 /* EZXingScanBasicView.m in Sources */,
 				1E5EFDCB2113EE2000995301 /* EZXingScanAliPayExampleViewController.m in Sources */,

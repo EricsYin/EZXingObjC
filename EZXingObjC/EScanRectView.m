@@ -358,6 +358,15 @@ CGFloat photoframeLineW = 2;
     }
 }
 
+- (void)drawScanViewTopRect{
+    
+}
+
+
+- (void)drawScanViewCenterRect{
+    
+}
+
 #pragma mark -  Getters and Setters
 - (UIButton *)controlFlashButton
 {
