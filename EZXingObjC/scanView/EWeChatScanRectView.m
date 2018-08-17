@@ -18,4 +18,20 @@
 }
 */
 
+#pragma mark -  Life Cycle
+
+#pragma mark -  System Delegate
+
+#pragma mark -  CustomDelegate
+
+#pragma mark -  Event Response
+
+#pragma mark -  Private Methods
+
+#pragma mark -  Public Methods
+
+#pragma mark -  Getters and Setters
+
+
+
 @end

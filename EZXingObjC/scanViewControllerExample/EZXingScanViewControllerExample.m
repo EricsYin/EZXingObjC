@@ -16,6 +16,8 @@
 
 @implementation EZXingScanViewControllerExample
 
+
+#pragma mark -  Life Cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
@@ -28,6 +30,18 @@
         }];
     }
 }
+#pragma mark -  System Delegate
+
+#pragma mark -  CustomDelegate
+
+#pragma mark -  Event Response
+
+#pragma mark -  Private Methods
+
+#pragma mark -  Public Methods
+
+#pragma mark -  Getters and Setters
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
