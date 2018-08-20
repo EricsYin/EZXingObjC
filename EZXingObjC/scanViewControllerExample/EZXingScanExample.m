@@ -25,7 +25,7 @@
     
     [self addCell:@"EZXingObjC UIViewController similar WeChat " class:@"EZXingScanWeChatExampleViewController"];
     [self addCell:@"EZXingObjC UIViewController similar AliPay " class:@"EZXingScanAliPayExampleViewController"];
-    [self addCell:@"EZXingObjC used in custom UIView" class:@"EZXingScanUIViewExample"];
+    [self addCell:@"EZXingObjC used in custom UIView" class:@"EZXingScanCustomScanRectViewExample"];
     [self addCell:@"EZXingObjC used in custom UIViewController" class:@"EZXingScanViewControllerExample"];
     [self addCell:@"EZXingObjC UIViewController custom scan rect " class:@"EZXingScanCustomScanRectVCExample"];
     [self addCell:@"EZXingObjC UIView custom scan rect " class:@"EZXingScanCustomScanRectViewExample"];
