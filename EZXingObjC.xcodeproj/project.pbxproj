@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0494A4BA99439184E3750363 /* libPods-EZXingObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E089D2E292540485293BCA3D /* libPods-EZXingObjC.a */; };
 		1E1DDD3B2132E836003A6069 /* EScanRepeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DDD3A2132E836003A6069 /* EScanRepeatViewController.m */; };
+		1E1DDD5621358617003A6069 /* EZXingExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DDD5521358617003A6069 /* EZXingExpand.m */; };
 		1E2C2B80211EF3B800C42136 /* EAliPayScanRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2C2B7F211EF3B800C42136 /* EAliPayScanRectView.m */; };
 		1E2C2B83211EF3DE00C42136 /* EWeChatScanRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2C2B82211EF3DE00C42136 /* EWeChatScanRectView.m */; };
 		1E2FC356212EE72C001828EE /* EScanResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2FC354212EE72C001828EE /* EScanResultTableViewCell.m */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		1E1DDD392132E836003A6069 /* EScanRepeatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EScanRepeatViewController.h; sourceTree = "<group>"; };
 		1E1DDD3A2132E836003A6069 /* EScanRepeatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EScanRepeatViewController.m; sourceTree = "<group>"; };
+		1E1DDD5421358617003A6069 /* EZXingExpand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingExpand.h; sourceTree = "<group>"; };
+		1E1DDD5521358617003A6069 /* EZXingExpand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingExpand.m; sourceTree = "<group>"; };
 		1E2C2B7E211EF3B800C42136 /* EAliPayScanRectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAliPayScanRectView.h; sourceTree = "<group>"; };
 		1E2C2B7F211EF3B800C42136 /* EAliPayScanRectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAliPayScanRectView.m; sourceTree = "<group>"; };
 		1E2C2B81211EF3DE00C42136 /* EWeChatScanRectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWeChatScanRectView.h; sourceTree = "<group>"; };
@@ -111,6 +114,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E1DDD53213585C3003A6069 /* ZXingExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1E1DDD5421358617003A6069 /* EZXingExpand.h */,
+				1E1DDD5521358617003A6069 /* EZXingExpand.m */,
+			);
+			path = ZXingExtension;
+			sourceTree = "<group>";
+		};
 		1E4C3DD720F10CBA00C3A582 = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +210,7 @@
 		1EBD02F72125C90D00AAE72F /* EZXingObjCScan */ = {
 			isa = PBXGroup;
 			children = (
+				1E1DDD53213585C3003A6069 /* ZXingExtension */,
 				1E5EFDDF211752B600995301 /* EScanRectStyle.h */,
 				1E5EFDE0211752B600995301 /* EScanRectStyle.m */,
 				1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */,
@@ -388,6 +401,7 @@
 				1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */,
 				1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */,
 				1E5EFDBD2110021C00995301 /* UIColor+EColorCategory.m in Sources */,
+				1E1DDD5621358617003A6069 /* EZXingExpand.m in Sources */,
 				1E5EFDCE2113EEC800995301 /* EZXingScanUIViewExample.m in Sources */,
 				1E5EFDC52111B36400995301 /* EZXingScanExample.m in Sources */,
 				1E5EFDBA210EB77100995301 /* EScanRectView.m in Sources */,
