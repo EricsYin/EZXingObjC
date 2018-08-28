@@ -19,12 +19,14 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
-    if (!_scanBasicView) {
-        self.scanBasicView = [[EZXingScanBasicView alloc]initWithFrame:CGRectMake(0, kNavigationBarHeight, kScreenWidth, kScreenHeight - kNavigationBarHeight)];
+//    if (!_scanBasicView) {
+    
+        self.scanBasicView = [[EZXingScanBasicView alloc]init];
+    self.scanBasicView.frame = CGRectMake(0, kNavigationBarHeight, kScreenWidth, kScreenHeight - kNavigationBarHeight);
         [self.scanBasicView initiateZxingScanesultBlock:^(ZXBarcodeFormat barcodeFormat, UIImage *image, NSString *scanResult) {
-            
+        [self.view bringSubviewToFront:self.scanBasicView];
         }];
-    }
+//    }
 }
 
 - (void)didReceiveMemoryWarning {

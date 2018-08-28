@@ -7,6 +7,7 @@
 //
 
 #import "EZXingScanExample.h"
+#import "EZXingScanCustomScanRectViewExample.h"
 
 @interface EZXingScanExample ()
 
@@ -64,13 +65,14 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *className = self.classNames[indexPath.row];
     Class class = NSClassFromString(className);        
-    
-    if (class) {
-        UIViewController * example = class.new;
-        example.title = _titles[indexPath.row];
-        [self.navigationController pushViewController:example animated:YES];
-    }
-    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+    EZXingScanCustomScanRectViewExample * vc = [[EZXingScanCustomScanRectViewExample alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+//    if (class) {
+//        UIViewController * example = class.new;
+//        example.title = _titles[indexPath.row];
+//        [self.navigationController pushViewController:example animated:YES];
+//    }
+//    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 @end
