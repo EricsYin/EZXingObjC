@@ -11,6 +11,7 @@
 		1E1DDD3B2132E836003A6069 /* EScanRepeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DDD3A2132E836003A6069 /* EScanRepeatViewController.m */; };
 		1E1DDD5621358617003A6069 /* EZXingExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DDD5521358617003A6069 /* EZXingExpand.m */; };
 		1E1DDD592136D1A8003A6069 /* EZXingObjectDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DDD582136D1A8003A6069 /* EZXingObjectDetect.m */; };
+		1E23BCF6213EBE51007749C3 /* EQRCodeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E23BCF5213EBE51007749C3 /* EQRCodeExtension.m */; };
 		1E2C2B80211EF3B800C42136 /* EAliPayScanRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2C2B7F211EF3B800C42136 /* EAliPayScanRectView.m */; };
 		1E2C2B83211EF3DE00C42136 /* EWeChatScanRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2C2B82211EF3DE00C42136 /* EWeChatScanRectView.m */; };
 		1E2FC356212EE72C001828EE /* EScanResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2FC354212EE72C001828EE /* EScanResultTableViewCell.m */; };
@@ -46,6 +47,8 @@
 		1E1DDD5521358617003A6069 /* EZXingExpand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingExpand.m; sourceTree = "<group>"; };
 		1E1DDD572136D1A8003A6069 /* EZXingObjectDetect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingObjectDetect.h; sourceTree = "<group>"; };
 		1E1DDD582136D1A8003A6069 /* EZXingObjectDetect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingObjectDetect.m; sourceTree = "<group>"; };
+		1E23BCF4213EBE51007749C3 /* EQRCodeExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EQRCodeExtension.h; sourceTree = "<group>"; };
+		1E23BCF5213EBE51007749C3 /* EQRCodeExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EQRCodeExtension.m; sourceTree = "<group>"; };
 		1E2C2B7E211EF3B800C42136 /* EAliPayScanRectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAliPayScanRectView.h; sourceTree = "<group>"; };
 		1E2C2B7F211EF3B800C42136 /* EAliPayScanRectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAliPayScanRectView.m; sourceTree = "<group>"; };
 		1E2C2B81211EF3DE00C42136 /* EWeChatScanRectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWeChatScanRectView.h; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 				1E1DDD5521358617003A6069 /* EZXingExpand.m */,
 				1E1DDD572136D1A8003A6069 /* EZXingObjectDetect.h */,
 				1E1DDD582136D1A8003A6069 /* EZXingObjectDetect.m */,
+				1E23BCF4213EBE51007749C3 /* EQRCodeExtension.h */,
+				1E23BCF5213EBE51007749C3 /* EQRCodeExtension.m */,
 			);
 			path = ZXingExtension;
 			sourceTree = "<group>";
@@ -407,6 +412,7 @@
 				1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */,
 				1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */,
 				1E5EFDBD2110021C00995301 /* UIColor+EColorCategory.m in Sources */,
+				1E23BCF6213EBE51007749C3 /* EQRCodeExtension.m in Sources */,
 				1E1DDD5621358617003A6069 /* EZXingExpand.m in Sources */,
 				1E5EFDCE2113EEC800995301 /* EZXingScanUIViewExample.m in Sources */,
 				1E5EFDC52111B36400995301 /* EZXingScanExample.m in Sources */,
