@@ -7,5 +7,5 @@ target "EZXingObjC" do
 inhibit_all_warnings!
 
 pod 'ZXingObjC'
-
+pod 'Reveal-SDK', :configurations => ['Debug']
 end

@@ -1,14 +1,17 @@
 PODS:
+  - Reveal-SDK (17)
   - ZXingObjC (3.2.2):
     - ZXingObjC/All (= 3.2.2)
   - ZXingObjC/All (3.2.2)
 
 DEPENDENCIES:
+  - Reveal-SDK
   - ZXingObjC
 
 SPEC CHECKSUMS:
+  Reveal-SDK: a6df49f47319bd19a110c960c498af32df72c0af
   ZXingObjC: 2c95a0dc52daac69b23ec78fad8fa2fec05f8981
 
-PODFILE CHECKSUM: 285f2f3c6755355df2c53d629f7a4928ab6b9df9
+PODFILE CHECKSUM: 23385d5356258da6ebeff8b715d55fce4e459a72
 
 COCOAPODS: 1.4.0

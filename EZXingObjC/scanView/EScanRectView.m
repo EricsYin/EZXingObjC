@@ -123,7 +123,6 @@ CGFloat photoframeLineW = 2;
     [super drawRect:rect];
     [self drawScanRectWithStyle:self.scanStyle];
 }
-
 #pragma mark -  system Delegate
 
 #pragma mark -  CustomDelegate
