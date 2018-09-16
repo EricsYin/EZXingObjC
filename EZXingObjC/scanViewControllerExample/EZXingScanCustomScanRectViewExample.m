@@ -21,11 +21,13 @@
     // Do any additional setup after loading the view.
 //    if (!_scanBasicView) {
     
-        self.scanBasicView = [[EZXingScanBasicView alloc]init];
+    self.scanBasicView = [[EZXingScanBasicView alloc]init];
+    [self.view addSubview:self.scanBasicView];
     self.scanBasicView.frame = CGRectMake(0, kNavigationBarHeight, kScreenWidth, kScreenHeight - kNavigationBarHeight);
-        [self.scanBasicView initiateZxingScanesultBlock:^(ZXBarcodeFormat barcodeFormat, UIImage *image, NSString *scanResult) {
+    [self.scanBasicView initiateZxingScanesultBlock:^(ZXBarcodeFormat barcodeFormat, UIImage *image, NSString *scanResult) {
         [self.view bringSubviewToFront:self.scanBasicView];
-        }];
+    }];
+    
 //    }
 }
 
