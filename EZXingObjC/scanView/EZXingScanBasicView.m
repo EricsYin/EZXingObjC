@@ -152,7 +152,6 @@
     
     [_zxingObj setScanRect:cropRect];
     
-    
     [_zxingObj start];
     
 }

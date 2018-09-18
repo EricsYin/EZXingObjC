@@ -220,8 +220,13 @@
 
 - (BOOL)hasFront {
     //NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
-    NSArray * devices = [AVCaptureDeviceDiscoverySession discoverySessionWithDeviceTypes:@[] mediaType:AVMediaTypeVideo position:AVCaptureDevicePositionUnspecified];
-    return [devices count] > 1;
+    if (@available(iOS 10.0, *)) {
+        NSArray * devices = [AVCaptureDeviceDiscoverySession discoverySessionWithDeviceTypes:@[] mediaType:AVMediaTypeVideo position:AVCaptureDevicePositionUnspecified];
+        return [devices count] > 1;
+    } else {
+        // Fallback on earlier versions
+        return NO;        
+    }
 }
 
 - (BOOL)hasBack {

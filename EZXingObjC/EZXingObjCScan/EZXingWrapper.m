@@ -48,11 +48,9 @@ typedef void(^blockScan)(ZXBarcodeFormat barcodeFormat,NSString *str,UIImage *sc
         self.block = block;
         
         CGRect rect = preView.frame;
-        //        rect.origin = CGPointZero;
-        
+
         self.capture.layer.frame = rect;
-        // [preView.layer addSublayer:self.capture.layer];
-        
+
         [preView.layer insertSublayer:self.capture.layer atIndex:0];
         
     }
@@ -110,18 +108,16 @@ typedef void(^blockScan)(ZXBarcodeFormat barcodeFormat,NSString *str,UIImage *sc
 }
 
 
-#pragma mark - ZXCaptureDelegate Methods
+#pragma mark - ZXCaptureDelegate Methods\
 
-- (void)captureResult:(ZXCapture *)capture result:(ZXResult *)result scanImage:(UIImage *)img
-{
-    
+- (void)captureResult:(EZXCapture *)capture result:(ZXResult *)result scanImage:(UIImage *)img{
     if (!result) return;
     
     if (self.bNeedScanResult == NO) {
         
         return;
     }
-
+    
     if ( _block )
     {
         [self stop];
@@ -129,6 +125,7 @@ typedef void(^blockScan)(ZXBarcodeFormat barcodeFormat,NSString *str,UIImage *sc
         _block(result.barcodeFormat,result.text,img);
     }
 }
+
 
 
 
