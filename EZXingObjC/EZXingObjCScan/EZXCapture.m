@@ -221,7 +221,7 @@
 - (BOOL)hasFront {
     //NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
     if (@available(iOS 10.0, *)) {
-        NSArray * devices = [AVCaptureDeviceDiscoverySession discoverySessionWithDeviceTypes:@[] mediaType:AVMediaTypeVideo position:AVCaptureDevicePositionUnspecified];
+        NSArray *devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
         return [devices count] > 1;
     } else {
         // Fallback on earlier versions

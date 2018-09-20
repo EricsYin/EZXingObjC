@@ -19,7 +19,6 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
-//    if (!_scanBasicView) {
     
     self.scanBasicView = [[EZXingScanBasicView alloc]init];
     [self.view addSubview:self.scanBasicView];

@@ -22,7 +22,6 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
-    self.title = @"viewController 使用ZXingObjC";
     if (!_scanBasicView) {
         self.scanBasicView = [[EZXingScanBasicView alloc]initWithFrame:CGRectMake(0, kNavigationBarHeight, kScreenWidth, kScreenHeight - kNavigationBarHeight)];
         [self.view addSubview:self.scanBasicView];
