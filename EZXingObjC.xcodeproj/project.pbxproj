@@ -36,6 +36,7 @@
 		1E5EFDE1211752B600995301 /* EScanRectStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDE0211752B600995301 /* EScanRectStyle.m */; };
 		1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF620F375EF00041CC7 /* EZXCapture.m */; };
 		1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */; };
+		1EE5BF042156882000CAED7E /* ECASampleBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE5BF032156882000CAED7E /* ECASampleBuffer.m */; };
 		1EFACB21210600E30043836A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFACB20210600E20043836A /* CoreGraphics.framework */; };
 		1EFACB23210600FE0043836A /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFACB22210600FE0043836A /* CoreImage.framework */; };
 /* End PBXBuildFile section */
@@ -99,6 +100,8 @@
 		1EC3FAF620F375EF00041CC7 /* EZXCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXCapture.m; sourceTree = "<group>"; };
 		1EC3FAF820F3763000041CC7 /* EZXingWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingWrapper.h; sourceTree = "<group>"; };
 		1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingWrapper.m; sourceTree = "<group>"; };
+		1EE5BF022156882000CAED7E /* ECASampleBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECASampleBuffer.h; sourceTree = "<group>"; };
+		1EE5BF032156882000CAED7E /* ECASampleBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECASampleBuffer.m; sourceTree = "<group>"; };
 		1EFACB20210600E20043836A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1EFACB22210600FE0043836A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		3A7E6E67B43349F4D51C1A53 /* Pods-EZXingObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZXingObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZXingObjC/Pods-EZXingObjC.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +132,8 @@
 				1E1DDD582136D1A8003A6069 /* EZXingObjectDetect.m */,
 				1E23BCF4213EBE51007749C3 /* EQRCodeExtension.h */,
 				1E23BCF5213EBE51007749C3 /* EQRCodeExtension.m */,
+				1EE5BF022156882000CAED7E /* ECASampleBuffer.h */,
+				1EE5BF032156882000CAED7E /* ECASampleBuffer.m */,
 			);
 			path = ZXingExtension;
 			sourceTree = "<group>";
@@ -419,6 +424,7 @@
 				1E1DDD5621358617003A6069 /* EZXingExpand.m in Sources */,
 				1E5EFDCE2113EEC800995301 /* EZXingScanUIViewExample.m in Sources */,
 				1E5EFDC52111B36400995301 /* EZXingScanExample.m in Sources */,
+				1EE5BF042156882000CAED7E /* ECASampleBuffer.m in Sources */,
 				1E5EFDBA210EB77100995301 /* EScanRectView.m in Sources */,
 				1E2C2B80211EF3B800C42136 /* EAliPayScanRectView.m in Sources */,
 				1E5EFDC82113EE0C00995301 /* EZXingScanWeChatExampleViewController.m in Sources */,
