@@ -34,6 +34,9 @@
 		1E5EFDDA2113EF4600995301 /* EZXingScanCustomScanRectViewExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDD92113EF4600995301 /* EZXingScanCustomScanRectViewExample.m */; };
 		1E5EFDDD2113FCE500995301 /* EScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB6210EB1DE00995301 /* EScanLineAnimation.m */; };
 		1E5EFDE1211752B600995301 /* EScanRectStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDE0211752B600995301 /* EScanRectStyle.m */; };
+		1E7220B7215D04A9006F1B1C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7220B6215D04A9006F1B1C /* AVFoundation.framework */; };
+		1E7220B9215D04B1006F1B1C /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7220B8215D04B1006F1B1C /* AVKit.framework */; };
+		1E7220BC215D04E2006F1B1C /* EAVCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7220BB215D04E2006F1B1C /* EAVCapture.m */; };
 		1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF620F375EF00041CC7 /* EZXCapture.m */; };
 		1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */; };
 		1EE5BF042156882000CAED7E /* ECASampleBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE5BF032156882000CAED7E /* ECASampleBuffer.m */; };
@@ -96,6 +99,10 @@
 		1E5EFDDE211412F700995301 /* EZXingObjCPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZXingObjCPrefixHeader.pch; sourceTree = "<group>"; };
 		1E5EFDDF211752B600995301 /* EScanRectStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EScanRectStyle.h; sourceTree = "<group>"; };
 		1E5EFDE0211752B600995301 /* EScanRectStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EScanRectStyle.m; sourceTree = "<group>"; };
+		1E7220B6215D04A9006F1B1C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1E7220B8215D04B1006F1B1C /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		1E7220BA215D04E2006F1B1C /* EAVCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EAVCapture.h; path = EZXingObjC/EZXingObjCScan/EAVCapture.h; sourceTree = "<group>"; };
+		1E7220BB215D04E2006F1B1C /* EAVCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EAVCapture.m; path = EZXingObjC/EZXingObjCScan/EAVCapture.m; sourceTree = "<group>"; };
 		1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCaptureDelegate.h; sourceTree = "<group>"; };
 		1EC3FAF520F375EF00041CC7 /* EZXCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCapture.h; sourceTree = "<group>"; };
 		1EC3FAF620F375EF00041CC7 /* EZXCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXCapture.m; sourceTree = "<group>"; };
@@ -117,6 +124,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E7220B9215D04B1006F1B1C /* AVKit.framework in Frameworks */,
+				1E7220B7215D04A9006F1B1C /* AVFoundation.framework in Frameworks */,
 				1EFACB23210600FE0043836A /* CoreImage.framework in Frameworks */,
 				1EFACB21210600E30043836A /* CoreGraphics.framework in Frameworks */,
 				0494A4BA99439184E3750363 /* libPods-EZXingObjC.a in Frameworks */,
@@ -144,6 +153,8 @@
 		1E4C3DD720F10CBA00C3A582 = {
 			isa = PBXGroup;
 			children = (
+				1E7220BA215D04E2006F1B1C /* EAVCapture.h */,
+				1E7220BB215D04E2006F1B1C /* EAVCapture.m */,
 				1E4C3DE220F10CBA00C3A582 /* EZXingObjC */,
 				1E4C3DE120F10CBA00C3A582 /* Products */,
 				3F56096A6FA0EA09CD27475D /* Pods */,
@@ -280,6 +291,8 @@
 		89935A9DC9C888DFA73FA27B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1E7220B8215D04B1006F1B1C /* AVKit.framework */,
+				1E7220B6215D04A9006F1B1C /* AVFoundation.framework */,
 				1EFACB22210600FE0043836A /* CoreImage.framework */,
 				1EFACB20210600E20043836A /* CoreGraphics.framework */,
 				E089D2E292540485293BCA3D /* libPods-EZXingObjC.a */,
@@ -441,6 +454,7 @@
 				1E5EFDB4210A298F00995301 /* EZXingScanBasicView.m in Sources */,
 				1E5EFDCB2113EE2000995301 /* EZXingScanAliPayExampleViewController.m in Sources */,
 				1E5EFDDA2113EF4600995301 /* EZXingScanCustomScanRectViewExample.m in Sources */,
+				1E7220BC215D04E2006F1B1C /* EAVCapture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
