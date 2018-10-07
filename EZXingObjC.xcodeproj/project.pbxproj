@@ -37,6 +37,7 @@
 		1E7220B7215D04A9006F1B1C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7220B6215D04A9006F1B1C /* AVFoundation.framework */; };
 		1E7220B9215D04B1006F1B1C /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7220B8215D04B1006F1B1C /* AVKit.framework */; };
 		1E7220BC215D04E2006F1B1C /* EAVCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7220BB215D04E2006F1B1C /* EAVCapture.m */; };
+		1E7220C2216A4988006F1B1C /* EOCRCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7220C1216A4988006F1B1C /* EOCRCapture.m */; };
 		1EC3FAF720F375EF00041CC7 /* EZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF620F375EF00041CC7 /* EZXCapture.m */; };
 		1EC3FAFA20F3763000041CC7 /* EZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC3FAF920F3763000041CC7 /* EZXingWrapper.m */; };
 		1EE5BF042156882000CAED7E /* ECASampleBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE5BF032156882000CAED7E /* ECASampleBuffer.m */; };
@@ -103,6 +104,8 @@
 		1E7220B8215D04B1006F1B1C /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		1E7220BA215D04E2006F1B1C /* EAVCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EAVCapture.h; path = EZXingObjC/EZXingObjCScan/EAVCapture.h; sourceTree = "<group>"; };
 		1E7220BB215D04E2006F1B1C /* EAVCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EAVCapture.m; path = EZXingObjC/EZXingObjCScan/EAVCapture.m; sourceTree = "<group>"; };
+		1E7220C0216A4988006F1B1C /* EOCRCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCRCapture.h; sourceTree = "<group>"; };
+		1E7220C1216A4988006F1B1C /* EOCRCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCRCapture.m; sourceTree = "<group>"; };
 		1EC3FAF220F375B700041CC7 /* EZXCaptureDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCaptureDelegate.h; sourceTree = "<group>"; };
 		1EC3FAF520F375EF00041CC7 /* EZXCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXCapture.h; sourceTree = "<group>"; };
 		1EC3FAF620F375EF00041CC7 /* EZXCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXCapture.m; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 				1E23BCF5213EBE51007749C3 /* EQRCodeExtension.m */,
 				1EE5BF022156882000CAED7E /* ECASampleBuffer.h */,
 				1EE5BF032156882000CAED7E /* ECASampleBuffer.m */,
+				1E7220C0216A4988006F1B1C /* EOCRCapture.h */,
+				1E7220C1216A4988006F1B1C /* EOCRCapture.m */,
 			);
 			path = ZXingExtension;
 			sourceTree = "<group>";
@@ -450,6 +455,7 @@
 				1E2C2B83211EF3DE00C42136 /* EWeChatScanRectView.m in Sources */,
 				1E2FC356212EE72C001828EE /* EScanResultTableViewCell.m in Sources */,
 				1E4EFE2B2121D27D0062733B /* EScanGridAnimation.m in Sources */,
+				1E7220C2216A4988006F1B1C /* EOCRCapture.m in Sources */,
 				1E4C3DE520F10CBA00C3A582 /* AppDelegate.m in Sources */,
 				1E5EFDB4210A298F00995301 /* EZXingScanBasicView.m in Sources */,
 				1E5EFDCB2113EE2000995301 /* EZXingScanAliPayExampleViewController.m in Sources */,
