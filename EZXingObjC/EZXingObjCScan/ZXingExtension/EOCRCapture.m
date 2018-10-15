@@ -7,6 +7,14 @@
 //
 
 #import "EOCRCapture.h"
+#import <AVFoundation/AVFoundation.h>
+#import <CoreImage/CoreImage.h>
+
+@interface EOCRCapture ()<AVCaptureVideoDataOutputSampleBufferDelegate>
+//自定义相机
+@property (nonatomic, strong) AVCaptureSession *captureSession;
+@property (nonatomic, strong) AVCaptureDevice *captureDevice;
+@end
 
 @implementation EOCRCapture
 

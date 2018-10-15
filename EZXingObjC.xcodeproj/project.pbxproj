@@ -22,6 +22,7 @@
 		1E4C3DED20F10CBB00C3A582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4C3DEC20F10CBB00C3A582 /* Assets.xcassets */; };
 		1E4C3DF320F10CBB00C3A582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C3DF220F10CBB00C3A582 /* main.m */; };
 		1E4EFE2B2121D27D0062733B /* EScanGridAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4EFE2A2121D27D0062733B /* EScanGridAnimation.m */; };
+		1E54016F2174C1320099A9B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E54016E2174C1320099A9B5 /* UIKit.framework */; };
 		1E5EFDB4210A298F00995301 /* EZXingScanBasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB3210A298F00995301 /* EZXingScanBasicView.m */; };
 		1E5EFDBA210EB77100995301 /* EScanRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDB9210EB77100995301 /* EScanRectView.m */; };
 		1E5EFDBD2110021C00995301 /* UIColor+EColorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFDBC2110021C00995301 /* UIColor+EColorCategory.m */; };
@@ -73,6 +74,7 @@
 		1E4C3DF220F10CBB00C3A582 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E4EFE292121D27D0062733B /* EScanGridAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EScanGridAnimation.h; sourceTree = "<group>"; };
 		1E4EFE2A2121D27D0062733B /* EScanGridAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EScanGridAnimation.m; sourceTree = "<group>"; };
+		1E54016E2174C1320099A9B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1E5EFDB2210A298F00995301 /* EZXingScanBasicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZXingScanBasicView.h; sourceTree = "<group>"; };
 		1E5EFDB3210A298F00995301 /* EZXingScanBasicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZXingScanBasicView.m; sourceTree = "<group>"; };
 		1E5EFDB5210EB1DE00995301 /* EScanLineAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EScanLineAnimation.h; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E54016F2174C1320099A9B5 /* UIKit.framework in Frameworks */,
 				1E7220B9215D04B1006F1B1C /* AVKit.framework in Frameworks */,
 				1E7220B7215D04A9006F1B1C /* AVFoundation.framework in Frameworks */,
 				1EFACB23210600FE0043836A /* CoreImage.framework in Frameworks */,
@@ -296,6 +299,7 @@
 		89935A9DC9C888DFA73FA27B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1E54016E2174C1320099A9B5 /* UIKit.framework */,
 				1E7220B8215D04B1006F1B1C /* AVKit.framework */,
 				1E7220B6215D04A9006F1B1C /* AVFoundation.framework */,
 				1EFACB22210600FE0043836A /* CoreImage.framework */,

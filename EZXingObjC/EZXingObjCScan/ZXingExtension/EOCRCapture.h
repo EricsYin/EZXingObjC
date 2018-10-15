@@ -11,7 +11,16 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface EOCRCapture : NSObject
+typedef void(^barCodeResult)(NSString * barCodeResult,UIImage * scanImage);
+typedef void(^failResult)(NSString * errorMessage);
 
+- (id)initWithPreView:(UIView*)preView
+         barCodeBlock:(void(^)(NSString * barCodeResult,UIImage * scanImage))barCodeblock
+            failBlock:(void(^)(NSString * message))failBlock;
+
+- (void)restartOcrScan;
+
+- (void)suspendOcrScan;
 @end
 
 NS_ASSUME_NONNULL_END
