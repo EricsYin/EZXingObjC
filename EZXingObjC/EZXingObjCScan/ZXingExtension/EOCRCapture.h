@@ -7,12 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
-
-@interface EOCRCapture : NSObject
 typedef void(^barCodeResult)(NSString * barCodeResult,UIImage * scanImage);
 typedef void(^failResult)(NSString * errorMessage);
+
+@interface EOCRCapture : NSObject
+
+@property (nonatomic, copy) failResult failBlock;
+
+@property (nonatomic, copy) barCodeResult barCodeBlock;
 
 - (id)initWithPreView:(UIView*)preView
          barCodeBlock:(void(^)(NSString * barCodeResult,UIImage * scanImage))barCodeblock

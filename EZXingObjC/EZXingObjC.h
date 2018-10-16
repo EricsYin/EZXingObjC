@@ -39,11 +39,4 @@
 #define bottomXHeight  (IS_IPHONE_X? 20 : 0)
 #define kbottomXHeight  (IS_IPHONE_X? 20 : 0)
 
-#ifdef __OBJC__
-
-#import <UIKit/UIKit.h>
-
-#import <Foundation/Foundation.h>
-
-#endif
 #endif /* EZXingObjC_h */
